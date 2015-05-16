@@ -1,0 +1,36 @@
+
+Executable name: source_files/grades/grades
+Executable: ./source_files/grades/grades
+
+Found Haswell CPU
+Checking core #1
+Power units = 0.125W
+Energy units = 0.00006104J
+Time units = 0.00097656s
+
+Package thermal spec: 47.000W
+Package minimum power: 0.000W
+Package maximum power: 0.000W
+Package maximum time window: 0.000000s
+Package power limits are locked
+Package power limit #1: 47.000W for 0.015625s (enabled, not_clamped)
+Package power limit #2: 58.750W for 0.032227s (enabled, not_clamped)
+
+Package energy before: 171789.562378J
+PowerPlane0 (core) for core 1 energy before: 87874.100159J
+PowerPlane0 (core) for core 1 policy: 0
+PowerPlane1 (on-core GPU if avail) before: 95.854980J
+PowerPlane1 (on-core GPU if avail) 1 policy: 16
+DRAM energy before: 9271.656311J
+
+Executing ./source_files/grades/grades
+
+Total time: 30.895636s
+Package energy after: 172244.655090  (455.092712J consumed)
+PowerPlane0 (core) for core 1 energy after: 88105.981201  (231.881042J consumed)
+PowerPlane1 (on-core GPU if avail) after: 96.074036  (0.219055J consumed)
+DRAM energy after: 9295.742920  (24.086609J consumed)
+
+Note: the energy measurements can overflow in 60s or so
+      so try to sample the counters more often than that.
+

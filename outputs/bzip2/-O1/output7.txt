@@ -1,0 +1,36 @@
+
+Executable name: source_files/bzip2/bzip2
+Executable: ./source_files/bzip2/bzip2
+
+Found Haswell CPU
+Checking core #1
+Power units = 0.125W
+Energy units = 0.00006104J
+Time units = 0.00097656s
+
+Package thermal spec: 47.000W
+Package minimum power: 0.000W
+Package maximum power: 0.000W
+Package maximum time window: 0.000000s
+Package power limits are locked
+Package power limit #1: 47.000W for 0.015625s (enabled, not_clamped)
+Package power limit #2: 58.750W for 0.032227s (enabled, not_clamped)
+
+Package energy before: 4345.022217J
+PowerPlane0 (core) for core 1 energy before: 145055.793823J
+PowerPlane0 (core) for core 1 policy: 0
+PowerPlane1 (on-core GPU if avail) before: 178.092163J
+PowerPlane1 (on-core GPU if avail) 1 policy: 16
+DRAM energy before: 13132.210388J
+
+Executing ./source_files/bzip2/bzip2
+
+Total time: 20.871705s
+Package energy after: 4685.585815  (340.563599J consumed)
+PowerPlane0 (core) for core 1 energy after: 145238.276245  (182.482422J consumed)
+PowerPlane1 (on-core GPU if avail) after: 178.276306  (0.184143J consumed)
+DRAM energy after: 13149.464233  (17.253845J consumed)
+
+Note: the energy measurements can overflow in 60s or so
+      so try to sample the counters more often than that.
+
