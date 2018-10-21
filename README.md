@@ -1,7 +1,9 @@
 ### Impact of GCC optimization levels in energy usage during C/C++ program execution 
 Authors: <br>
 David Branco (davidbranco88 at gmail.com) <br>
-Pedro Rangel Henriques (pedrorangelhenriques at gmail.com)
+Pedro Rangel Henriques (pedrorangelhenriques at gmail.com) <br>
+
+Project Website: http://www4.di.uminho.pt/~gepl/GreenGCC/
 
 Project Structure:
 - rapl-read.c  : measurement software;
