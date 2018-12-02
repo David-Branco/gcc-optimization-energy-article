@@ -4,7 +4,7 @@ David Branco (davidbranco88 at gmail.com) <br>
 Pedro Rangel Henriques (pedrorangelhenriques at gmail.com) <br>
 
 Project Website: http://www4.di.uminho.pt/~gepl/OCGREC/ <br>
-Article:  http://www4.di.uminho.pt/~gepl/OCGREC/repository/Acta2015_DBranco_PRHenriques.pdf
+Scientific Article:  http://www4.di.uminho.pt/~gepl/OCGREC/repository/Acta2015_DBranco_PRHenriques.pdf
 
 Project Structure:
 - rapl-read.c  : measurement software;
